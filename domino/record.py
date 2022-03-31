@@ -3,11 +3,12 @@
 
 
 from typing import Tuple, Union, List, Dict
-from exceptions import DominoError, InvalidPiece, InvalidSide
-from piece import Piece
-from player import ANNOTATOR, Player
-from table import Table
-from domino import Domino
+
+from .exceptions import DominoError, InvalidPiece, InvalidSide
+from .piece import Piece
+from .player import ANNOTATOR, Player
+from .table import Table
+from .domino import Domino
 
 
 class Movement(Domino):

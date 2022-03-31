@@ -3,12 +3,12 @@
 import random
 from typing import List, Tuple
 
-from domino import Domino
-from table import Table
-from piece import Piece, ALL_PIECES
-from player import ANNOTATOR, Player, ALL_PLAYERS
-from record import GameRecord, Movement
-from exceptions import InvalidPiece
+from .domino import Domino
+from .table import Table
+from .piece import Piece, ALL_PIECES
+from .player import ANNOTATOR, Player, ALL_PLAYERS
+from .record import GameRecord, Movement
+from .exceptions import InvalidPiece
 
 
 class Game(Domino):

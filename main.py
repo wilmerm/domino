@@ -2,8 +2,8 @@
 import sys
 import random
 
-from game import Game
-from player import PLAYER1, PLAYER2
+from domino.game import Game
+from domino.player import PLAYER1, PLAYER2
 
 
 def main(*args):

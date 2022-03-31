@@ -2,7 +2,8 @@
 
 
 from typing import Union, Type
-from exceptions import InvalidPlayerNumber, InvalidPlayer
+
+from .exceptions import InvalidPlayerNumber, InvalidPlayer
 
 
 _Movement = Type

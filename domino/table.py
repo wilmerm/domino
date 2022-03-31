@@ -1,5 +1,5 @@
 
-from exceptions import InvalidTable, InvalidSide
+from .exceptions import InvalidTable, InvalidSide
 
 
 class Table():

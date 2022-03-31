@@ -4,7 +4,7 @@
 
 from typing import List, Tuple
 
-from exceptions import InvalidPieceNumber, InvalidPiece
+from .exceptions import InvalidPieceNumber, InvalidPiece
 
 
 class Piece:
